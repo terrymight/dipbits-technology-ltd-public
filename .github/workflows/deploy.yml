@@ -17,7 +17,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-
+          
+      - name: Debug files
+        run: ls -R
+        
       - name: Build
         run: hugo
 
