@@ -22,6 +22,7 @@ jobs:
         
       - name: Build
         run: hugo
+        working-directory: 
 
       - name: Deploy to public repo
         uses: peaceiris/actions-gh-pages@v3
