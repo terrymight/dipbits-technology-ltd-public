@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug files
+        run: ls -R
+        
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -17,9 +20,6 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          
-      - name: Debug files
-        run: ls -R
         
       - name: Build
         run: hugo
