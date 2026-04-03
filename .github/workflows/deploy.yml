@@ -27,4 +27,4 @@ jobs:
           external_repository: YOUR_USERNAME/YOUR_PUBLIC_REPO
           publish_branch: main
           publish_dir: ./public
-          personal_token: ${{ secrets. }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
