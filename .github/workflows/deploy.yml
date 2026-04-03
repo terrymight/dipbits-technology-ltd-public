@@ -24,7 +24,7 @@ jobs:
       - name: Deploy to public repo
         uses: peaceiris/actions-gh-pages@v3
         with:
-          external_repository: YOUR_USERNAME/YOUR_PUBLIC_REPO
+          external_repository: terrymight/dipbits-technology-ltd-public
           publish_branch: main
           publish_dir: ./public
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
