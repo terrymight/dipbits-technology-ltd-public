@@ -3,1109 +3,1002 @@
 <!doctype html>
 <html>
   <head>
-	<meta name="generator" content="Hugo 0.159.2">
+	<meta name="generator" content="Hugo 0.160.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dipbits Technology</title>
-    
-    <link rel="stylesheet" href="/css/main.min.css" />
+    <link rel="stylesheet" href="/css/output.css">
   </head>
   <body >
-    <nav id="navbar" class="navbar">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="container mx-auto px-4 flex items-center justify-between h-16">
+    <a href="/" class="flex flex-col leading-tight">
+      <span class="text-xl font-bold font-heading gradient-text">
+        Dipbits Technology LTD
+      </span>
+      <small class="text-[10px] uppercase tracking-widest opacity-80 gradient-text font-bold">
+        RC: 1792345
+      </small>
+    </a>
 
-  <div class="section-container navbar-inner">
-
-    
-  <a href="/" class="logo-block">
-
-    <span class="logo-name gradient-text">
-      Dipbits Technology LTD
-    </span>
-
-    <span class="logo-meta gradient-text">
-      RC no 2938388
-    </span>
-
-  </a>
-
-    
-    <div class="nav-links">
-      <a href="/#services" class="nav-link">Services</a>
-      <a href="/#portfolio" class="nav-link">Portfolio</a>
-      <a href="/#pricing" class="nav-link">Pricing</a>
-      <a href="/#contact" class="nav-link">Contact</a>
-      <a href="/#blog" class="nav-link">Blog</a>
-
-      <a href="#contact" class="btn">Hire Me</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/#services" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Services</a>
+      <a href="/#portfolio" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Portfolio</a>
+      <a href="/#pricing" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+      <a href="/#contact" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+      <a href="/#blog" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity">
+        Hire Me
+      </a>
     </div>
 
-    
-    <button id="menu-toggle" class="menu-toggle">
-      <span id="menu-icon">☰</span>
-    </button>
-
+    <button id="mobile-toggle" class="md:hidden text-foreground p-2 focus:outline-none">
+  <img src="/icons/menu.svg" id="menu-icon" class="w-6 h-6 dark:invert transition-all duration-300" alt="Menu">
+</button>
   </div>
 
-  
-  <div id="mobile-menu" class="mobile-menu">
-    <a href="/#services" class="mobile-link">Services</a>
-    <a href="/#portfolio" class="mobile-link">Portfolio</a>
-    <a href="/#pricing" class="mobile-link">Pricing</a>
-    <a href="/#contact" class="mobile-link">Contact</a>
-    <a href="/#blog" class="nav-link">Blog</a>
-
-    <a href="/#contact" class="btn full">Hire Me</a>
+  <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
+    <div class="flex flex-col p-6 gap-6">
+      <a href="/#services" class="mobile-link text-lg font-medium">Services</a>
+      <a href="/#portfolio" class="mobile-link text-lg font-medium">Portfolio</a>
+      <a href="/#pricing" class="mobile-link text-lg font-medium">Pricing</a>
+      <a href="/#contact" class="mobile-link text-lg font-medium">Contact</a>
+      <a href="/#blog" class="mobile-link text-lg font-medium">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-3 rounded-lg font-bold text-center">
+        Hire Me
+      </a>
+    </div>
   </div>
+</nav>
 
-</nav> 
-    <section class="hero">
-  
-  <div class="hero-grid"></div>
+ 
+    <section class="relative min-h-screen flex items-center overflow-hidden" style="background: var(--gradient-hero)">
+  <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px); background-size: 60px 60px;"></div>
 
-  
-  <div class="hero-glow"></div>
+  <div class="container mx-auto px-4 relative z-10 py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-6 animate-fade-up">
+        <div class="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm text-primary font-semibold mb-6">
+          <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          Available Now — Limited Slots
+        </div>
 
-  <div class="section-container hero-inner">
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="dot"></span>
-        Available Now — Limited Slots
+        <h1 class="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold font-heading leading-[1.1] mb-6">
+          I Build Websites That <span class="gradient-text">Bring You Customers</span> & Make You Money
+        </h1>
+
+        <p class="text-lg text-muted-foreground max-w-xl mb-8">
+          Over 10 years helping Nigerian businesses grow online. From ₦300k.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#pricing" class="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-bold text-center">Get a Free Quote</a>
+          <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." class="border border-primary/30 hover:bg-primary/10 px-8 py-3 rounded-lg font-semibold text-center flex items-center justify-center gap-2">
+            <span class="w-5 h-5 flex items-center justify-center text-foreground transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            </span>
+            Call / WhatsApp Me
+          </a>
+        </div>
       </div>
 
-      <h1 class="hero-title">
-        We Build Websites That
-        <span class="gradient-text">Bring You Customers</span>
-        & Make You Money
-      </h1>
+      
 
-      <p class="hero-text">
-        Over 5 years helping Nigerian businesses grow online with
-        high-converting websites, e-commerce stores, and custom web apps. From
-        ₦300k.
-      </p>
+      <div class="lg:col-span-6 animate-fade-up" style="animation-delay: 0.3s">
+        <div class="relative max-w-[500px] mx-auto lg:max-w-full">
+          <div class="absolute -inset-4 rounded-2xl opacity-20 blur-2xl bg-primary"></div>
+          <img src="/imgs/hero-developer.jpg" class="relative rounded-2xl border-2 border-primary/20 shadow-2xl w-full aspect-square object-cover" alt="Developer">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section> 
+    <section class="py-20 border-b border-border bg-background">
+  <div class="section-container">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+      <div class="text-center animate-fade-up">
+        <div class="text-3xl md:text-4xl font-bold font-heading gradient-text mb-2">10+</div>
+        <div class="text-sm text-muted-foreground font-medium uppercase tracking-wider">Years Experience</div>
+      </div>
+      <div class="text-center animate-fade-up" style="animation-delay: 0.1s">
+        <div class="text-3xl md:text-4xl font-bold font-heading gradient-text mb-2">50+</div>
+        <div class="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projects Delivered</div>
+      </div>
+      <div class="text-center animate-fade-up" style="animation-delay: 0.2s">
+        <div class="text-3xl md:text-4xl font-bold font-heading gradient-text mb-2">₦50M+</div>
+        <div class="text-sm text-muted-foreground font-medium uppercase tracking-wider">Revenue Generated</div>
+      </div>
+      <div class="text-center animate-fade-up" style="animation-delay: 0.3s">
+        <div class="text-3xl md:text-4xl font-bold font-heading gradient-text mb-2">100%</div>
+        <div class="text-sm text-muted-foreground font-medium uppercase tracking-wider">Satisfaction</div>
+      </div>
+    </div>
 
-      <div class="hero-actions">
-        <a href="#pricing" class="btn hero-btn">Get a Free Quote &#8594;</a>
-
-        <a href="https://wa.me/2348000000000" class="btn outline hero-btn">
-          Call / WhatsApp Me
+    <div class="relative overflow-hidden rounded-2xl border border-primary/20 bg-card p-8 md:p-12 animate-fade-up">
+      <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div>
+          <h3 class="text-2xl font-bold font-heading mb-2">⚡ Only 3 slots available this month</h3>
+          <p class="text-muted-foreground">I take on limited projects to ensure premium quality and 1-on-1 attention.</p>
+        </div>
+        <a href="#contact" class="whitespace-nowrap bg-primary text-primary-foreground px-8 py-3 rounded-lg font-bold hover:scale-105 transition-transform cta-shadow">
+          Claim Your Spot
         </a>
       </div>
-
-      <div class="hero-stats">
-        <div class="hero-stat"><strong>50+</strong> Projects Delivered</div>
-
-        <div class="divider"></div>
-
-        <div class="hero-stat"><strong>&#x20A6;50M+</strong> Revenue Generated</div>
-
-        <div class="divider"></div>
-
-        <div class="hero-stat"><strong>100%</strong> Satisfaction</div>
-      </div>
-    </div>
-
-    
-    <div class="hero-image">
-      <div class="image-glow"></div>
-      <img src="/imgs/hero-developer.jpg" alt="Developer" />
     </div>
   </div>
-</section>
- 
-    <section class="trust section">
-
-  <div class="section-container">
-
-    
-    <div class="trust-grid">
-
-      <div class="trust-item">
-        <div class="trust-value gradient-text">10+</div>
-        <div class="trust-label">Years Experience</div>
-      </div>
-
-      <div class="trust-item">
-        <div class="trust-value gradient-text">50+</div>
-        <div class="trust-label">Projects Delivered</div>
-      </div>
-
-      <div class="trust-item">
-        <div class="trust-value gradient-text">&#8594;50M+</div>
-        <div class="trust-label">Revenue for Clients</div>
-      </div>
-
-      <div class="trust-item">
-        <div class="trust-value gradient-text">100%</div>
-        <div class="trust-label">Client Satisfaction</div>
-      </div>
-
-    </div>
-
-    
-    <div class="trust-banner">
-
-      <div>
-        <p class="trust-banner-title">⚡ Only 3 slots available this month</p>
-        <p class="trust-banner-text">
-          I take on limited projects to deliver premium quality.
-        </p>
-      </div>
-
-      <a href="#contact" class="btn trust-btn">
-        Claim Your Spot &#8594;
-      </a>
-
-    </div>
-
-  </div>
-
 </section> 
-    <section id="services" class="section services">
-
+    <section id="services" class="py-20 bg-muted/30">
   <div class="section-container">
-
-    
-    <div class="services-header">
-      <h2>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">
         What I Can Build <span class="gradient-text">For You</span>
       </h2>
-      <p>
-        Solutions that don't just look good — they make you money.
+      <p class="text-muted-foreground max-w-2xl mx-auto">
+        Engineered to convert visitors into customers.
       </p>
     </div>
 
-    
-    <div class="services-grid">
-
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       
-      <div class="service-card">
-
-
-        <div class="service-icon">
+      <div class="group p-8 rounded-2xl border border-border bg-card hover:border-primary/50 transition-all duration-300 animate-fade-up card-shadow">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor-icon lucide-monitor"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor-icon lucide-monitor"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+            
+          </div>
         </div>
 
-        <h3>Sales Landing Pages</h3>
-
-        <p class="service-desc">
-          Turn your ad traffic into paying customers with pages built to convert.
-        </p>
-
-        <p class="service-result">
-          &#x2714; Up to 12% conversion rate
-        </p>
-
+        <h3 class="text-xl font-bold font-heading mb-3 gradient-text">Sales Landing Pages</h3>
+        <p class="text-muted-foreground mb-6 text-sm leading-relaxed">Turn your ad traffic into paying customers with pages built to convert.</p>
+        
+        <div class="flex items-center gap-2 text-primary text-sm font-bold uppercase tracking-tight">
+          <img src="/icons/check.svg" class="w-4 h-4 dark:invert" alt="check">
+          Up to 12% conversion rate
+        </div>
       </div>
       
-      <div class="service-card">
-
-
-        <div class="service-icon">
+      <div class="group p-8 rounded-2xl border border-border bg-card hover:border-primary/50 transition-all duration-300 animate-fade-up card-shadow">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+            
+          </div>
         </div>
 
-        <h3>E-commerce Stores</h3>
-
-        <p class="service-desc">
-          Sell online 24/7 with Paystack, Flutterwave, and automated order management.
-        </p>
-
-        <p class="service-result">
-          &#x2714; 200% average sales increase
-        </p>
-
+        <h3 class="text-xl font-bold font-heading mb-3 gradient-text">E-commerce Stores</h3>
+        <p class="text-muted-foreground mb-6 text-sm leading-relaxed">Sell online 24/7 with Paystack, Flutterwave, and automated order management.</p>
+        
+        <div class="flex items-center gap-2 text-primary text-sm font-bold uppercase tracking-tight">
+          <img src="/icons/check.svg" class="w-4 h-4 dark:invert" alt="check">
+          200% average sales increase
+        </div>
       </div>
       
-      <div class="service-card">
-
-
-        <div class="service-icon">
+      <div class="group p-8 rounded-2xl border border-border bg-card hover:border-primary/50 transition-all duration-300 animate-fade-up card-shadow">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard-icon lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard-icon lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+            
+          </div>
         </div>
 
-        <h3>Custom Web Apps</h3>
-
-        <p class="service-desc">
-          Dashboards, CRMs, and tracking tools that automate your business.
-        </p>
-
-        <p class="service-result">
-          &#x2714; 20&#43; hours saved weekly
-        </p>
-
+        <h3 class="text-xl font-bold font-heading mb-3 gradient-text">Custom Web Apps</h3>
+        <p class="text-muted-foreground mb-6 text-sm leading-relaxed">Dashboards, CRMs, and tracking tools that automate your business.</p>
+        
+        <div class="flex items-center gap-2 text-primary text-sm font-bold uppercase tracking-tight">
+          <img src="/icons/check.svg" class="w-4 h-4 dark:invert" alt="check">
+          20&#43; hours saved weekly
+        </div>
       </div>
       
-      <div class="service-card">
-
-
-        <div class="service-icon">
+      <div class="group p-8 rounded-2xl border border-border bg-card hover:border-primary/50 transition-all duration-300 animate-fade-up card-shadow">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+            
+          </div>
         </div>
 
-        <h3>Payment Integration</h3>
-
-        <p class="service-desc">
-          Accept payments seamlessly with Paystack, Flutterwave, or Stripe.
-        </p>
-
-        <p class="service-result">
-          &#x2714; 60% less checkout abandonment
-        </p>
-
+        <h3 class="text-xl font-bold font-heading mb-3 gradient-text">Payment Integration</h3>
+        <p class="text-muted-foreground mb-6 text-sm leading-relaxed">Accept payments seamlessly with Paystack, Flutterwave, or Stripe.</p>
+        
+        <div class="flex items-center gap-2 text-primary text-sm font-bold uppercase tracking-tight">
+          <img src="/icons/check.svg" class="w-4 h-4 dark:invert" alt="check">
+          60% less checkout abandonment
+        </div>
       </div>
       
-      <div class="service-card">
-
-
-        <div class="service-icon">
+      <div class="group p-8 rounded-2xl border border-border bg-card hover:border-primary/50 transition-all duration-300 animate-fade-up card-shadow">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-more-icon lucide-message-square-more"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M12 11h.01"/><path d="M16 11h.01"/><path d="M8 11h.01"/></svg>
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-more-icon lucide-message-square-more"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M12 11h.01"/><path d="M16 11h.01"/><path d="M8 11h.01"/></svg>
+            
+          </div>
         </div>
 
-        <h3>SMS &amp; Notifications</h3>
-
-        <p class="service-desc">
-          Keep your customers updated with automated order and delivery alerts.
-        </p>
-
-        <p class="service-result">
-          &#x2714; 75% fewer support tickets
-        </p>
-
+        <h3 class="text-xl font-bold font-heading mb-3 gradient-text">SMS &amp; Notifications</h3>
+        <p class="text-muted-foreground mb-6 text-sm leading-relaxed">Keep your customers updated with automated order and delivery alerts.</p>
+        
+        <div class="flex items-center gap-2 text-primary text-sm font-bold uppercase tracking-tight">
+          <img src="/icons/check.svg" class="w-4 h-4 dark:invert" alt="check">
+          75% fewer support tickets
+        </div>
       </div>
       
-
     </div>
 
-    
-    <div class="services-cta">
-      <a href="#pricing" class="btn cta-shadow">
-        See Pricing & Get Started &#8594;
+    <div class="text-center mt-16 animate-fade-up">
+      <a href="#pricing" class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-bold cta-shadow hover:scale-105 transition-transform">
+        See Pricing & Get Started
+        <img src="/icons/arrow-right.svg" class="w-4 h-4 brightness-0 invert" alt="">
       </a>
     </div>
-
   </div>
-
 </section> 
-    <section id="portfolio" class="section portfolio section-tight">
-
+    <section id="portfolio" class="py-20 bg-background">
   <div class="section-container">
-
-    
-    <div class="portfolio-header section-header">
-        <h2>
-            Real Results for <span class="gradient-text">Real Businesses</span>
-        </h2>
-        <p>
-            Every project is built to deliver measurable business outcomes.
-        </p>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">Real <span class="gradient-text">Results</span></h2>
     </div>
 
-    
-    <div class="portfolio-grid">
-
-        
-            <div class="portfolio-card">
-
-                <div class="portfolio-result">
-                <span class="portfolio-icon">
-                    
-                </span>
-                <span>E-commerce &amp; service booking system</span>
-                </div>
-
-                <h3>Likemart Service Platform</h3>
-
-                <p class="portfolio-desc">
-                Developed a full e-commerce and service platform with seamless checkout, order management, and customer flow optimization.
-                </p>
-
-                <div class="portfolio-tags">
-                
-                <span class="tag">WordPress</span>
-                
-                <span class="tag">WooCommerce</span>
-                
-                <span class="tag">Payments</span>
-                
-                </div>
-
-                
-                <a href="http://likemartservice.com/" target="_blank" class="portfolio-link">
-                View Project &#8594;
-                </a>
-
-            </div>
-        
-            <div class="portfolio-card">
-
-                <div class="portfolio-result">
-                <span class="portfolio-icon">
-                    
-                </span>
-                <span>National healthcare digital platform</span>
-                </div>
-
-                <h3>BHCPF Government Platform</h3>
-
-                <p class="portfolio-desc">
-                Built and optimized a government-backed healthcare platform for managing public health funding, accessibility, and data flow.
-                </p>
-
-                <div class="portfolio-tags">
-                
-                <span class="tag">Web App</span>
-                
-                <span class="tag">Government</span>
-                
-                <span class="tag">Scalable System</span>
-                
-                </div>
-
-                
-                <a href="https://bhcpf.gov.ng/" target="_blank" class="portfolio-link">
-                View Project &#8594;
-                </a>
-
-            </div>
-        
-            <div class="portfolio-card">
-
-                <div class="portfolio-result">
-                <span class="portfolio-icon">
-                    
-                </span>
-                <span>Digital school management system</span>
-                </div>
-
-                <h3>Alham School Portal</h3>
-
-                <p class="portfolio-desc">
-                Created a school portal for managing students, results, and communication between staff and parents.
-                </p>
-
-                <div class="portfolio-tags">
-                
-                <span class="tag">Dashboard</span>
-                
-                <span class="tag">Education</span>
-                
-                <span class="tag">Automation</span>
-                
-                </div>
-
-                
-                <a href="http://school.alham.org/" target="_blank" class="portfolio-link">
-                View Project &#8594;
-                </a>
-
-            </div>
-        
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <div class="relative group overflow-hidden rounded-2xl border border-border bg-card animate-fade-up">
+        <div class="p-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-4">
+            <img src="/icons/trending-up.svg" class="w-3 h-3 dark:invert" alt="">
+            E-commerce &amp; service booking system
+          </div>
+          <h3 class="text-2xl font-bold font-heading mb-3 gradient-text">Likemart Service Platform</h3>
+          <p class="text-muted-foreground mb-6">Developed a full e-commerce and service platform with seamless checkout, order management, and customer flow optimization.</p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">WordPress</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">WooCommerce</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Payments</span>
+            
+          </div>
+          <a href="http://likemartservice.com/" target="_blank" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+            View Live Project <img src="/icons/arrow-right.svg" class="w-4 h-4 dark:invert" alt="">
+          </a>
+        </div>
+      </div>
+      
+      <div class="relative group overflow-hidden rounded-2xl border border-border bg-card animate-fade-up">
+        <div class="p-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-4">
+            <img src="/icons/trending-up.svg" class="w-3 h-3 dark:invert" alt="">
+            National healthcare digital platform
+          </div>
+          <h3 class="text-2xl font-bold font-heading mb-3 gradient-text">BHCPF Government Platform</h3>
+          <p class="text-muted-foreground mb-6">Built and optimized a government-backed healthcare platform for managing public health funding, accessibility, and data flow.</p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Web App</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Government</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Scalable System</span>
+            
+          </div>
+          <a href="https://bhcpf.gov.ng/" target="_blank" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+            View Live Project <img src="/icons/arrow-right.svg" class="w-4 h-4 dark:invert" alt="">
+          </a>
+        </div>
+      </div>
+      
+      <div class="relative group overflow-hidden rounded-2xl border border-border bg-card animate-fade-up">
+        <div class="p-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-4">
+            <img src="/icons/trending-up.svg" class="w-3 h-3 dark:invert" alt="">
+            Digital school management system
+          </div>
+          <h3 class="text-2xl font-bold font-heading mb-3 gradient-text">Alham School Portal</h3>
+          <p class="text-muted-foreground mb-6">Created a school portal for managing students, results, and communication between staff and parents.</p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Dashboard</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Education</span>
+            
+            <span class="px-3 py-1 rounded-md bg-muted text-xs font-medium border border-border">Automation</span>
+            
+          </div>
+          <a href="http://school.alham.org/" target="_blank" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+            View Live Project <img src="/icons/arrow-right.svg" class="w-4 h-4 dark:invert" alt="">
+          </a>
+        </div>
+      </div>
+      
     </div>
-
-    
-    <div class="portfolio-cta">
-      <a href="#pricing" class="btn cta-shadow">
-        I Want Results Like This &#8594;
-      </a>
-    </div>
-
   </div>
-
 </section> 
-    <section id="testimonials" class="section testimonials section-tight">
-
+    <section id="testimonials" class="py-20 border-t border-border bg-background">
   <div class="section-container">
-
-    
-    <div class="section-header">
-      <h2>
-        Don't Take My Word For It —
-        <span class="gradient-text">See Results</span>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">
+        Don't Take My Word For It — <span class="gradient-text">See Results</span>
       </h2>
     </div>
 
-    
-    <div class="testimonials-grid">
-
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       
-      <div class="testimonial-card">
-
-        
-        <div class="testimonial-stars">
+      <div class="p-8 rounded-2xl border border-border bg-card flex flex-col justify-between animate-fade-up transition-all hover:border-primary/30">
+        <div>
+          <div class="flex gap-1 mb-4">
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+          </div>
           
-          
-          
-          
-          
+          <p class="italic text-muted-foreground mb-8 leading-relaxed">
+            "He built our e-commerce platform in record time. Sales tripled within the first quarter. Absolutely worth every naira."
+          </p>
         </div>
 
-        
-        <p class="testimonial-text">
-          He built our e-commerce platform in record time. Sales tripled within the first quarter. Absolutely worth every naira.
-        </p>
-
-        
-        <div class="testimonial-user">
-          <img src="/imgs/testimony/testimonial-1.jpg" alt="Adebayo Johnson">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full border-2 border-primary/20 overflow-hidden shrink-0">
+            <img src="/imgs/testimony/testimonial-1.jpg" class="w-full h-full object-cover" alt="Adebayo Johnson">
+          </div>
           <div>
-            <div class="testimonial-name">Adebayo Johnson</div>
-            <div class="testimonial-role">CEO, ShopNaija</div>
+            <div class="font-bold text-sm text-foreground">Adebayo Johnson</div>
+            <div class="text-xs text-muted-foreground">CEO, ShopNaija</div>
           </div>
         </div>
-
       </div>
       
-      <div class="testimonial-card">
-
-        
-        <div class="testimonial-stars">
+      <div class="p-8 rounded-2xl border border-border bg-card flex flex-col justify-between animate-fade-up transition-all hover:border-primary/30">
+        <div>
+          <div class="flex gap-1 mb-4">
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+          </div>
           
-          
-          
-          
-          
+          <p class="italic text-muted-foreground mb-8 leading-relaxed">
+            "The dashboard he created transformed how we track our sales pipeline. We went from spreadsheets to a real-time system overnight."
+          </p>
         </div>
 
-        
-        <p class="testimonial-text">
-          The dashboard he created transformed how we track our sales pipeline. We went from spreadsheets to a real-time system overnight.
-        </p>
-
-        
-        <div class="testimonial-user">
-          <img src="/imgs/testimony/testimonial-2.jpg" alt="Ngozi Onyekachi">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full border-2 border-primary/20 overflow-hidden shrink-0">
+            <img src="/imgs/testimony/testimonial-2.jpg" class="w-full h-full object-cover" alt="Ngozi Onyekachi">
+          </div>
           <div>
-            <div class="testimonial-name">Ngozi Onyekachi</div>
-            <div class="testimonial-role">Founder, GreenVest</div>
+            <div class="font-bold text-sm text-foreground">Ngozi Onyekachi</div>
+            <div class="text-xs text-muted-foreground">Founder, GreenVest</div>
           </div>
         </div>
-
       </div>
       
-      <div class="testimonial-card">
-
-        
-        <div class="testimonial-stars">
+      <div class="p-8 rounded-2xl border border-border bg-card flex flex-col justify-between animate-fade-up transition-all hover:border-primary/30">
+        <div>
+          <div class="flex gap-1 mb-4">
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+          </div>
           
-          
-          
-          
-          
+          <p class="italic text-muted-foreground mb-8 leading-relaxed">
+            "Payment integration was seamless. Our checkout abandonment dropped by 60%. His technical skill is unmatched."
+          </p>
         </div>
 
-        
-        <p class="testimonial-text">
-          Payment integration was seamless. Our checkout abandonment dropped by 60%. His technical skill is unmatched.
-        </p>
-
-        
-        <div class="testimonial-user">
-          <img src="/imgs/testimony/testimonial-3.jpg" alt="Emeka Okafor">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full border-2 border-primary/20 overflow-hidden shrink-0">
+            <img src="/imgs/testimony/testimonial-3.jpg" class="w-full h-full object-cover" alt="Emeka Okafor">
+          </div>
           <div>
-            <div class="testimonial-name">Emeka Okafor</div>
-            <div class="testimonial-role">MD, PayQuick Solutions</div>
+            <div class="font-bold text-sm text-foreground">Emeka Okafor</div>
+            <div class="text-xs text-muted-foreground">MD, PayQuick Solutions</div>
           </div>
         </div>
-
       </div>
       
-      <div class="testimonial-card">
-
-        
-        <div class="testimonial-stars">
+      <div class="p-8 rounded-2xl border border-border bg-card flex flex-col justify-between animate-fade-up transition-all hover:border-primary/30">
+        <div>
+          <div class="flex gap-1 mb-4">
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+              <span class="w-5 h-5 text-yellow-500 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+            </span>
+            
+          </div>
           
-          
-          
-          
-          
+          <p class="italic text-muted-foreground mb-8 leading-relaxed">
+            "A very dependable and results-driven developer. I’ve always been impressed by his consistency, work ethic, and the quality of solutions he delivers."
+          </p>
         </div>
 
-        
-        <p class="testimonial-text">
-          A very dependable and results-driven developer. I’ve always been impressed by his consistency, work ethic, and the quality of solutions he delivers.
-        </p>
-
-        
-        <div class="testimonial-user">
-          <img src="/imgs/testimony/testimonial-4.jpg" alt="Client Testimonial">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full border-2 border-primary/20 overflow-hidden shrink-0">
+            <img src="/imgs/testimony/testimonial-4.jpg" class="w-full h-full object-cover" alt="Client Testimonial">
+          </div>
           <div>
-            <div class="testimonial-name">Client Testimonial</div>
-            <div class="testimonial-role">Business Owner</div>
+            <div class="font-bold text-sm text-foreground">Client Testimonial</div>
+            <div class="text-xs text-muted-foreground">Business Owner</div>
           </div>
         </div>
-
       </div>
       
-
     </div>
 
-    
-    <div class="testimonials-cta">
-      <a href="#contact" class="btn cta-shadow">
-        Start Your Project Today &#8594;
+    <div class="mt-16 text-center animate-fade-up">
+      <a href="#contact" class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-bold cta-shadow hover:scale-105 transition-transform">
+        Start Your Project Today 
+        <img src="/icons/arrow-right.svg" class="w-4 h-4 brightness-0 invert" alt="">
       </a>
     </div>
-
   </div>
-
 </section> 
-    <section id="pricing" class="section pricing section-tight">
-
+    <section id="pricing" class="py-20 bg-muted/30">
   <div class="section-container">
-
-    
-    <div class="section-header">
-      <h2>
-        Simple, <span class="gradient-text">Transparent Pricing</span>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">
+        Transparent <span class="gradient-text">Pricing</span>
       </h2>
-      <p>
+      <p class="text-muted-foreground max-w-2xl mx-auto">
         No hidden fees. Choose a plan and let's get started today.
       </p>
     </div>
 
-    
-    <div class="pricing-grid">
-
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
       
-      <div class="pricing-card ">
-
+      <div class="relative p-8 rounded-2xl border transition-all duration-300 border-border bg-card hover:border-primary/30 animate-fade-up">
+        
         
 
-        <h3>Starter</h3>
-        <p class="pricing-desc">Get your business online fast.</p>
+        <h3 class="text-xl font-bold font-heading mb-2 text-foreground">
+          Starter
+        </h3>
+        <p class="text-xs text-muted-foreground mb-6 h-8 leading-relaxed">Get your business online fast.</p>
+        
+        <div class="text-4xl font-bold font-heading mb-8 tracking-tight">
+          ₦300,000
+        </div>
 
-        <div class="pricing-price">₦700,000</div>
-
-        <ul class="pricing-features">
+        <ul class="space-y-4 mb-10">
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Landing page or simple website</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Mobile responsive design</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Basic SEO setup</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Basic integrations</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>1 round of revisions</span>
           </li>
           
         </ul>
 
-        <a href="#contact" class="btn outline">
-          Get Started Now &#8594;
+        <a href="#contact" class="block w-full py-4 rounded-xl text-center font-bold text-sm transition-all bg-muted text-foreground hover:bg-border">
+          Get Started Now
         </a>
-
       </div>
       
-      <div class="pricing-card popular">
-
+      <div class="relative p-8 rounded-2xl border transition-all duration-300 border-primary bg-primary/5 glow-shadow md:scale-105 z-10 animate-fade-up">
         
-        <div class="pricing-badge">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+        
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-[10px] font-black tracking-widest uppercase">
           Best Value
         </div>
         
 
-        <h3>Growth</h3>
-        <p class="pricing-desc">For businesses ready to scale.</p>
+        <h3 class="text-xl font-bold font-heading mb-2 text-primary">
+          Growth
+        </h3>
+        <p class="text-xs text-muted-foreground mb-6 h-8 leading-relaxed">For businesses ready to scale.</p>
+        
+        <div class="text-4xl font-bold font-heading mb-8 tracking-tight">
+          ₦1,200,000
+        </div>
 
-        <div class="pricing-price">₦1,200,000</div>
-
-        <ul class="pricing-features">
+        <ul class="space-y-4 mb-10">
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Full business website or eCommerce</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Payment gateway (Paystack/Flutterwave)</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>CMS (WordPress or Custom)</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Advanced SEO &amp; speed optimization</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>3 rounds of revisions</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>30 days post-launch support</span>
           </li>
           
         </ul>
 
-        <a href="#contact" class="btn cta-shadow">
-          Get Started Now &#8594;
+        <a href="#contact" class="block w-full py-4 rounded-xl text-center font-bold text-sm transition-all bg-primary text-primary-foreground shadow-lg shadow-primary/20 hover:opacity-90">
+          Get Started Now
         </a>
-
       </div>
       
-      <div class="pricing-card ">
-
+      <div class="relative p-8 rounded-2xl border transition-all duration-300 border-border bg-card hover:border-primary/30 animate-fade-up">
+        
         
 
-        <h3>Premium</h3>
-        <p class="pricing-desc">Enterprise-grade solutions.</p>
+        <h3 class="text-xl font-bold font-heading mb-2 text-foreground">
+          Premium
+        </h3>
+        <p class="text-xs text-muted-foreground mb-6 h-8 leading-relaxed">Enterprise-grade solutions.</p>
+        
+        <div class="text-4xl font-bold font-heading mb-8 tracking-tight">
+          ₦2,000,000
+        </div>
 
-        <div class="pricing-price">₦2,000,000</div>
-
-        <ul class="pricing-features">
+        <ul class="space-y-4 mb-10">
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Advanced web application</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Sales tracking dashboard</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Custom integrations (payments, SMS)</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Automation workflows</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Priority support for 60 days</span>
           </li>
           
-          <li>
-            <span class="check-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
-            </span>
+          <li class="flex items-start gap-3 text-sm text-muted-foreground leading-snug">
+            <img src="/icons/check.svg" class="w-4 h-4 mt-0.5 text-primary dark:invert shrink-0" alt="check">
             <span>Performance monitoring setup</span>
           </li>
           
         </ul>
 
-        <a href="#contact" class="btn outline">
-          Get Started Now &#8594;
+        <a href="#contact" class="block w-full py-4 rounded-xl text-center font-bold text-sm transition-all bg-muted text-foreground hover:bg-border">
+          Get Started Now
         </a>
-
       </div>
       
-
     </div>
 
-    
-    <div class="pricing-extra">
-      <p>Need something custom? Let's talk.</p>
+    <div class="text-center animate-fade-up pt-10 border-t border-border/50 max-w-2xl mx-auto">
+      <p class="text-muted-foreground font-medium mb-6">
+        Need something custom or a specific business solution?
+      </p>
 
-      <a href="https://wa.me/2348000000000" target="_blank" class="btn outline">
-        WhatsApp for Custom Quote
+      <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." target="_blank" class="inline-flex items-center gap-3 border-2 border-border hover:border-primary/50 hover:bg-primary/5 px-8 py-4 rounded-2xl font-bold transition-all group">
+        <img src="/icons/message-circle.svg" class="w-5 h-5 dark:invert group-hover:scale-110 transition-transform" alt="">
+        <span>WhatsApp for Custom Quote</span>
       </a>
     </div>
 
   </div>
-
 </section> 
-    <section class="section why-choose section-tight">
-
+    <section id="why-choose" class="py-20 bg-background">
   <div class="section-container">
-
-    
-    <div class="section-header">
-      <h2>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">
         Why <span class="gradient-text">50+ Businesses</span> Trust Me
       </h2>
     </div>
 
-    
-    <div class="why-grid">
-
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       
-      <div class="why-card">
-
-        <div class="why-icon">
+      <div class="p-8 rounded-2xl border border-border bg-card animate-fade-up hover:bg-muted/50 transition-colors group">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"/><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"/><path d="M18 9h1.5a1 1 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/><path d="M6 9H4.5a1 1 0 0 1 0-5H6"/></svg>
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
+            
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"/><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"/><path d="M18 9h1.5a1 1 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/><path d="M6 9H4.5a1 1 0 0 1 0-5H6"/></svg>
+            
+          </div>
+
         </div>
 
-        <h3>10&#43; Years Experience</h3>
-
-        <p>Proven expertise across dozens of Nigerian businesses and industries.</p>
-
+        <h3 class="text-lg font-bold font-heading mb-3 gradient-text">10&#43; Years Experience</h3>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Proven expertise across dozens of Nigerian businesses and industries.
+        </p>
       </div>
       
-      <div class="why-card">
-
-        <div class="why-icon">
+      <div class="p-8 rounded-2xl border border-border bg-card animate-fade-up hover:bg-muted/50 transition-colors group">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crosshair-icon lucide-crosshair"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg>
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
+            
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crosshair-icon lucide-crosshair"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg>
+            
+          </div>
+
         </div>
 
-        <h3>Revenue-First Approach</h3>
-
-        <p>Every feature is built to increase your sales and ROI.</p>
-
+        <h3 class="text-lg font-bold font-heading mb-3 gradient-text">Revenue-First Approach</h3>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Every feature is built to increase your sales and ROI.
+        </p>
       </div>
       
-      <div class="why-card">
-
-        <div class="why-icon">
+      <div class="p-8 rounded-2xl border border-border bg-card animate-fade-up hover:bg-muted/50 transition-colors group">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock8-icon lucide-clock-8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l-4 2"/></svg>
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
+            
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock8-icon lucide-clock-8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l-4 2"/></svg>
+            
+          </div>
+
         </div>
 
-        <h3>Fast &amp; Reliable Delivery</h3>
-
-        <p>Clear timelines, daily updates, and on-time launches.</p>
-
+        <h3 class="text-lg font-bold font-heading mb-3 gradient-text">Fast &amp; Reliable Delivery</h3>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Clear timelines, daily updates, and on-time launches.
+        </p>
       </div>
       
-      <div class="why-card">
-
-        <div class="why-icon">
+      <div class="p-8 rounded-2xl border border-border bg-card animate-fade-up hover:bg-muted/50 transition-colors group">
+        
+        <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/></svg>
+          <div class="w-7 h-7 text-primary flex items-center justify-center">
+            
+            
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/></svg>
+            
+          </div>
+
         </div>
 
-        <h3>Built to Scale</h3>
-
-        <p>Your solution grows with you — from startup to enterprise.</p>
-
+        <h3 class="text-lg font-bold font-heading mb-3 gradient-text">Built to Scale</h3>
+        <p class="text-muted-foreground text-sm leading-relaxed">
+          Your solution grows with you — from startup to enterprise.
+        </p>
       </div>
       
-
     </div>
-
   </div>
-
 </section> 
-    <section id="blog" class="section portfolio blog section-tight">
-
+    <section id="blog" class="py-20 bg-muted/30">
   <div class="section-container">
-
-    
-    <div class="section-header">
-      <h2>
+    <div class="text-center mb-16 animate-fade-up">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-4">
         Latest <span class="gradient-text">Insights</span>
       </h2>
-      <p>
-        Practical tips, strategies, and lessons from real projects.
+      <p class="text-muted-foreground max-w-2xl mx-auto">
+        Practical tips, strategies, and lessons from real projects to help your business grow.
       </p>
     </div>
 
-    
-    <div class="portfolio-grid"> 
-
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
       
-        <div class="portfolio-card">
-
-            
-            
-                <div class="portfolio-image">
-                <img src="/imgs/blog/social_media_growth.png" alt="Dipbits Technology">
-                </div>
-            
-
-            
-            <div class="portfolio-result">
-                <span>Mar 30, 2026 • 1 min read</span>
+        <article class="group rounded-2xl border border-border bg-card overflow-hidden hover:border-primary/50 transition-all duration-300 animate-fade-up">
+          
+            <div class="aspect-video overflow-hidden bg-muted">
+              <img src="/imgs/blog/social_media_growth.png" alt="Dipbits Technology" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
             </div>
-
-            <h3>How We Increased Sales by 200%</h3>
-
-            <p class="portfolio-desc">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, …</p>
+          
+          <div class="p-6">
+            <div class="flex items-center gap-2 text-xs text-muted-foreground mb-4">
+              <time>Mar 30, 2026</time>
+              <span>•</span>
+              <span>1 min read</span>
+            </div>
+            <h3 class="text-xl font-bold font-heading mb-3 group-hover:text-primary transition-colors">
+              How We Increased Sales by 200%
+            </h3>
+            <p class="text-muted-foreground text-sm leading-relaxed mb-6 line-clamp-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, …</p>
             </p>
-
-            <div class="portfolio-tags">
-                
-                <span class="tag">E-commerce</span>
-                
-                <span class="tag">Conversion</span>
-                
+            <div class="flex flex-wrap gap-2 mb-6">
+              
+                <span class="px-2 py-1 rounded bg-muted text-[10px] font-bold uppercase tracking-wider border border-border">E-commerce</span>
+              
+                <span class="px-2 py-1 rounded bg-muted text-[10px] font-bold uppercase tracking-wider border border-border">Conversion</span>
+              
             </div>
-
-            <a href="/posts/my-first-post/" class="portfolio-link">
-                Read Article &#8594;
+            <a href="/posts/my-first-post/" class="inline-flex items-center gap-2 text-sm font-bold text-primary group/link">
+              Read Article 
+              <img src="/icons/arrow-right.svg" class="w-4 h-4 dark:invert group-hover/link:translate-x-1 transition-transform" alt="">
             </a>
-
-        </div>
+          </div>
+        </article>
       
-
     </div>
 
-    
-    <div class="portfolio-cta">
-      <a href="/posts" class="btn cta-shadow">
-        View All Articles &#8594;
+    <div class="text-center animate-fade-up">
+      <a href="/posts" class="inline-flex items-center gap-2 bg-muted hover:bg-border text-foreground px-8 py-3 rounded-lg font-bold transition-colors">
+        View All Articles
       </a>
     </div>
-
   </div>
-
 </section> 
-    <section id="contact" class="section portfolio contact section-tight">
-
+    <section id="contact" class="py-20 border-t border-border bg-muted/30">
   <div class="section-container">
-
-    
-    <div class="section-header center">
-      <h2>
-        Ready to <span class="gradient-text">Grow Your Business</span>
-      </h2>
-
-      <p class="subtitle">
-        Send a message or reach out directly. We typically respond within a few hours.
-      </p>
-    </div>
-
-    
-    <div class="contact-grid">
-
-      
-      <div class="contact-message card-gradient">
-
-        <h3>Let’s grow your business</h3>
-
-        <p>Send a message or reach out directly. We typically respond within a few hours.</p>
-
-        <div class="contact-trust">
+    <div class="grid lg:grid-cols-2 gap-12">
+      <div class="animate-fade-up">
+        <h2 class="text-3xl md:text-5xl font-bold font-heading mb-6">Let's <span class="gradient-text">Talk Business</span></h2>
+        <p class="text-muted-foreground mb-8 text-lg">Send a message or reach out directly. We typically respond within a few hours.</p>
+        <div class="space-y-4 mb-8">
           
-            &#x2714; Fast response <br>
+          <div class="flex items-center gap-3 font-semibold">
+            <img src="/icons/check.svg" class="w-5 h-5 text-primary dark:invert" alt="">
+            Fast response
+          </div>
           
-            &#x2714; Professional support <br>
+          <div class="flex items-center gap-3 font-semibold">
+            <img src="/icons/check.svg" class="w-5 h-5 text-primary dark:invert" alt="">
+            Professional support
+          </div>
           
-            &#x2714; No obligation <br>
+          <div class="flex items-center gap-3 font-semibold">
+            <img src="/icons/check.svg" class="w-5 h-5 text-primary dark:invert" alt="">
+            No obligation
+          </div>
           
         </div>
-
-        <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." target="_blank" class="btn cta-shadow whatsapp-main">
-          <span class="icon-left">
-            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
-          </span>
-          Chat on WhatsApp Now →
+        <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." class="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-bold cta-shadow hover:scale-105 transition-transform">
+          <img src="/icons/message-circle.svg" class="w-6 h-6 dark:invert" alt="">
+          Send a WhatsApp Message
         </a>
-
       </div>
 
-      
-      <div class="contact-info">
-
+      <div class="grid gap-4 animate-fade-up" style="animation-delay: 0.2s">
         
-        <div class="contact-card card-gradient">
-
-          <div class="icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+        <div class="p-6 rounded-2xl border border-border bg-card flex items-center gap-6">
+          <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+            <img src="/icons/mail.svg" class="w-6 h-6 dark:invert" alt="">
           </div>
-
           <div>
-            <h4>Email</h4>
-
-            <a href="mailto:hello@yourdomain.com" >
-              hello@yourdomain.com
-            </a>
-
-            <p>We reply within 2 hours</p>
+            <h4 class="font-bold">Email</h4>
+            <a href="mailto:hello@yourdomain.com" class="text-muted-foreground hover:text-primary transition-colors">hello@yourdomain.com</a>
           </div>
-
         </div>
         
-        <div class="contact-card card-gradient">
-
-          <div class="icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+        <div class="p-6 rounded-2xl border border-border bg-card flex items-center gap-6">
+          <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+            <img src="/icons/message-circle.svg" class="w-6 h-6 dark:invert" alt="">
           </div>
-
           <div>
-            <h4>WhatsApp</h4>
-
-            <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." target="_blank">
-              Chat instantly
-            </a>
-
-            <p>Fastest way to reach us</p>
+            <h4 class="font-bold">WhatsApp</h4>
+            <a href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service." class="text-muted-foreground hover:text-primary transition-colors">Chat instantly</a>
           </div>
-
         </div>
         
-        <div class="contact-card card-gradient">
-
-          <div class="icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+        <div class="p-6 rounded-2xl border border-border bg-card flex items-center gap-6">
+          <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+            <img src="/icons/phone.svg" class="w-6 h-6 dark:invert" alt="">
           </div>
-
           <div>
-            <h4>Phone</h4>
-
-            <a href="#ZgotmplZ" >
-              &#43;2348054063094
-            </a>
-
-            <p>Available during business hours</p>
+            <h4 class="font-bold">Phone</h4>
+            <a href="#ZgotmplZ" class="text-muted-foreground hover:text-primary transition-colors">&#43;2348054063094</a>
           </div>
-
         </div>
         
-
       </div>
-
     </div>
-
   </div>
-
 </section> 
-    <footer class="portfolio border-border">
-
+    <footer class="border-t border-border bg-background pt-16 pb-8">
   <div class="section-container">
-
-    <div class="footer-grid">
-
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px] mb-[40px]">
       
-    <div class="footer-about">
-
-        <p class="footer-desc">
-
-        <span class="footer-logo-wrap">
-            <img src="/imgs/logo/dipbits-logo-dark.png" class="logo-dark">
-            <img src="/imgs/logo/dipbits-logo-light.jpeg" class="logo-light">
+      <div class="footer-about">
+        <span class="float-left mr-4 mb-[10px]">
+            <img src="/imgs/logo/dipbits-logo-light.jpeg" class="h-[140px] w-auto dark:hidden" alt="Logo">
+            <img src="/imgs/logo/dipbits-logo-dark.png" class="h-[140px] w-auto hidden dark:block" alt="Logo">
         </span>
 
-            I&#39;m a senior full-stack developer with over 10 years of experience building high-performing websites and web applications for businesses across Nigeria and beyond. From e-commerce platforms to custom dashboards, I help entrepreneurs and companies turn ideas into profitable digital products. My focus is always on results — speed, conversions, and growth.
-
+        <p class="text-[0.9rem] text-muted-foreground leading-[1.6]">
+          I&#39;m a senior full-stack developer with over 10 years of experience building high-performing websites and web applications for businesses across Nigeria and beyond. From e-commerce platforms to custom dashboards, I help entrepreneurs and companies turn ideas into profitable digital products. My focus is always on results — speed, conversions, and growth.
         </p>
+      </div>
 
-    </div>
-
-      
       <div>
-        <h4 class="footer-title">Quick Links</h4>
+        <h4 class="font-bold text-foreground mb-[10px]">Quick Links</h4>
 
-        <ul class="footer-links">
+        <ul class="list-none p-0 m-0">
           
-            <li>
-              <a href="#services">Services</a>
+            <li class="mb-[6px]">
+              <a href="#services" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Services
+              </a>
             </li>
           
-            <li>
-              <a href="#portfolio">Portfolio</a>
+            <li class="mb-[6px]">
+              <a href="#portfolio" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Portfolio
+              </a>
             </li>
           
-            <li>
-              <a href="#pricing">Pricing</a>
+            <li class="mb-[6px]">
+              <a href="#pricing" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Pricing
+              </a>
             </li>
           
-            <li>
-              <a href="#testimonials">Testimonials</a>
+            <li class="mb-[6px]">
+              <a href="#testimonials" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Testimonials
+              </a>
             </li>
           
-            <li>
-              <a href="#contact">Contact</a>
+            <li class="mb-[6px]">
+              <a href="#contact" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Contact
+              </a>
             </li>
           
         </ul>
       </div>
 
-      
       <div>
-        <h4 class="footer-title">Get in Touch</h4>
+        <h4 class="font-bold text-foreground mb-[10px]">Get in Touch</h4>
 
-        <ul class="footer-contact">
+        <ul class="list-none p-0 m-0">
           
-          <li>
-
-            <span class="icon">
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
             </span>
 
-            <a href="mailto:hello@devpro.ng" >
+            <a href="mailto:hello@devpro.ng"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
               hello@devpro.ng
             </a>
-
           </li>
           
-          <li>
-
-            <span class="icon">
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
             </span>
 
-            <a href="https://wa.me/2348054063094" target="_blank">
+            <a href="https://wa.me/2348054063094" target="_blank" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
               WhatsApp
             </a>
-
           </li>
           
-          <li>
-
-            <span class="icon">
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
             </span>
 
-            <a href="#ZgotmplZ" >
+            <a href="#ZgotmplZ"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
               &#43;234 805 406 3094
             </a>
-
           </li>
           
         </ul>
@@ -1113,28 +1006,26 @@
 
     </div>
 
-    
-    <div class="footer-bottom">
-      <p>
+    <div class="border-t border-border pt-[20px] text-center">
+      <p class="text-[0.75rem] text-muted-foreground">
         © 2026 Dipbits Technology LTD. All rights reserved.
       </p>
     </div>
 
   </div>
-
 </footer> 
-    
-
-<a
+    <a
   href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service."
   target="_blank"
-  class="sticky-cta-btn flex items-center gap-2"
+  rel="noopener noreferrer"
+  class="fixed bottom-6 right-6 z-[100] flex items-center gap-2 bg-primary text-primary-foreground px-4 py-3 rounded-full font-bold shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group cta-shadow"
 >
-  <span>&#x1F4AC;</span>
+  <img src="/icons/message-circle.svg" class="w-5 h-5 dark:invert" alt="WhatsApp">
   <span class="hidden sm:inline">Chat on WhatsApp</span>
 </a>
-
     
-        <script src="/js/main.js"></script>
+    
+    <script src="/js/main.js"></script>
   </body>
 </html>
+

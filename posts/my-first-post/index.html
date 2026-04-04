@@ -1,71 +1,215 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <title>How We Increased Sales by 200%</title>
-  <link rel="stylesheet" href="/css/main.min.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How We Increased Sales by 200% | Dipbits Technology</title>
+  <link rel="stylesheet" href="/css/output.css" />
 </head>
-<body>
+<body class="bg-background text-foreground font-body selection:bg-primary selection:text-primary-foreground">
 
-  <nav id="navbar" class="navbar">
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="container mx-auto px-4 flex items-center justify-between h-16">
+    <a href="/" class="flex flex-col leading-tight">
+      <span class="text-xl font-bold font-heading gradient-text">
+        Dipbits Technology LTD
+      </span>
+      <small class="text-[10px] uppercase tracking-widest opacity-80 gradient-text font-bold">
+        RC: 1792345
+      </small>
+    </a>
 
-  <div class="section-container navbar-inner">
-
-    
-  <a href="/" class="logo-block">
-
-    <span class="logo-name gradient-text">
-      Dipbits Technology LTD
-    </span>
-
-    <span class="logo-meta gradient-text">
-      RC no 2938388
-    </span>
-
-  </a>
-
-    
-    <div class="nav-links">
-      <a href="/#services" class="nav-link">Services</a>
-      <a href="/#portfolio" class="nav-link">Portfolio</a>
-      <a href="/#pricing" class="nav-link">Pricing</a>
-      <a href="/#contact" class="nav-link">Contact</a>
-      <a href="/#blog" class="nav-link">Blog</a>
-
-      <a href="#contact" class="btn">Hire Me</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/#services" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Services</a>
+      <a href="/#portfolio" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Portfolio</a>
+      <a href="/#pricing" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+      <a href="/#contact" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+      <a href="/#blog" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity">
+        Hire Me
+      </a>
     </div>
 
-    
-    <button id="menu-toggle" class="menu-toggle">
-      <span id="menu-icon">☰</span>
-    </button>
-
+    <button id="mobile-toggle" class="md:hidden text-foreground p-2 focus:outline-none">
+  <img src="/icons/menu.svg" id="menu-icon" class="w-6 h-6 dark:invert transition-all duration-300" alt="Menu">
+</button>
   </div>
 
-  
-  <div id="mobile-menu" class="mobile-menu">
-    <a href="/#services" class="mobile-link">Services</a>
-    <a href="/#portfolio" class="mobile-link">Portfolio</a>
-    <a href="/#pricing" class="mobile-link">Pricing</a>
-    <a href="/#contact" class="mobile-link">Contact</a>
-    <a href="/#blog" class="nav-link">Blog</a>
-
-    <a href="/#contact" class="btn full">Hire Me</a>
+  <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
+    <div class="flex flex-col p-6 gap-6">
+      <a href="/#services" class="mobile-link text-lg font-medium">Services</a>
+      <a href="/#portfolio" class="mobile-link text-lg font-medium">Portfolio</a>
+      <a href="/#pricing" class="mobile-link text-lg font-medium">Pricing</a>
+      <a href="/#contact" class="mobile-link text-lg font-medium">Contact</a>
+      <a href="/#blog" class="mobile-link text-lg font-medium">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-3 rounded-lg font-bold text-center">
+        Hire Me
+      </a>
+    </div>
   </div>
-
 </nav>
 
-  <section class="section">
-    <div class="section-container">
-      <h1>How We Increased Sales by 200%</h1>
-      <p>Mar 30, 2026</p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+
+  <article class="pt-32 pb-20">
+    <div class="max-w-3xl mx-auto px-4">
+      
+      <header class="mb-12 animate-fade-up">
+        <a href="/posts" class="text-primary text-sm font-bold inline-flex items-center gap-2 mb-8 group">
+          <img src="/icons/arrow-right.svg" class="w-4 h-4 rotate-180 dark:invert group-hover:-translate-x-1 transition-transform" alt=""> 
+          Back to Articles
+        </a>
+        <h1 class="text-4xl md:text-5xl font-bold font-heading mb-6 leading-tight">
+          How We Increased Sales by 200%
+        </h1>
+        <div class="flex items-center gap-4 text-muted-foreground text-sm border-l-2 border-primary/30 pl-4">
+          <time>March 30, 2026</time>
+          <span>•</span>
+          <span>1 min read</span>
+        </div>
+      </header>
+
+      
+      <div class="rounded-3xl overflow-hidden mb-12 border border-border shadow-2xl animate-fade-up">
+        <img src="/imgs/blog/social_media_growth.png" class="w-full h-auto object-cover max-h-[500px]" alt="How We Increased Sales by 200%">
+      </div>
+      
+
+      <div class="prose prose-lg dark:prose-invert prose-primary max-w-none animate-fade-up leading-relaxed text-muted-foreground">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
 <p>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.</p>
 <p>Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
 <p>Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Integer luctus, tortor at lobortis facilisis, lacus augue convallis orci, in tristique nisl lorem eget ex. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Sed cursus turpis vitae tortor.</p>
 
+      </div>
+
+      <div class="mt-16 pt-8 border-t border-border flex flex-col sm:row justify-between items-center gap-6 animate-fade-up">
+        <div class="flex flex-wrap gap-2">
+          
+          <span class="px-3 py-1 rounded-full bg-muted text-[11px] font-bold uppercase border border-border">E-commerce</span>
+          
+          <span class="px-3 py-1 rounded-full bg-muted text-[11px] font-bold uppercase border border-border">Conversion</span>
+          
+        </div>
+        <a href="#contact" class="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-bold text-sm hover:opacity-90 transition-opacity">
+          Hire us for a project
+        </a>
+      </div>
+
     </div>
-  </section>
+  </article>
+
+  <footer class="border-t border-border bg-background pt-16 pb-8">
+  <div class="section-container">
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px] mb-[40px]">
+      
+      <div class="footer-about">
+        <span class="float-left mr-4 mb-[10px]">
+            <img src="/imgs/logo/dipbits-logo-light.jpeg" class="h-[140px] w-auto dark:hidden" alt="Logo">
+            <img src="/imgs/logo/dipbits-logo-dark.png" class="h-[140px] w-auto hidden dark:block" alt="Logo">
+        </span>
+
+        <p class="text-[0.9rem] text-muted-foreground leading-[1.6]">
+          I&#39;m a senior full-stack developer with over 10 years of experience building high-performing websites and web applications for businesses across Nigeria and beyond. From e-commerce platforms to custom dashboards, I help entrepreneurs and companies turn ideas into profitable digital products. My focus is always on results — speed, conversions, and growth.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-foreground mb-[10px]">Quick Links</h4>
+
+        <ul class="list-none p-0 m-0">
+          
+            <li class="mb-[6px]">
+              <a href="#services" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Services
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#portfolio" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Portfolio
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#pricing" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Pricing
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#testimonials" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Testimonials
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#contact" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Contact
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-foreground mb-[10px]">Get in Touch</h4>
+
+        <ul class="list-none p-0 m-0">
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            </span>
+
+            <a href="mailto:hello@devpro.ng"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              hello@devpro.ng
+            </a>
+          </li>
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+            </span>
+
+            <a href="https://wa.me/2348054063094" target="_blank" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              WhatsApp
+            </a>
+          </li>
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            </span>
+
+            <a href="#ZgotmplZ"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              &#43;234 805 406 3094
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="border-t border-border pt-[20px] text-center">
+      <p class="text-[0.75rem] text-muted-foreground">
+        © 2026 Dipbits Technology LTD. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+  <a
+  href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service."
+  target="_blank"
+  rel="noopener noreferrer"
+  class="fixed bottom-6 right-6 z-[100] flex items-center gap-2 bg-primary text-primary-foreground px-4 py-3 rounded-full font-bold shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group cta-shadow"
+>
+  <img src="/icons/message-circle.svg" class="w-5 h-5 dark:invert" alt="WhatsApp">
+  <span class="hidden sm:inline">Chat on WhatsApp</span>
+</a>
 
 </body>
 </html>

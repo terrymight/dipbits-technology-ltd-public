@@ -1,121 +1,221 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <title>Posts</title>
-  <link rel="stylesheet" href="/css/main.min.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts | Dipbits Technology</title>
+  <link rel="stylesheet" href="/css/output.css" />
 </head>
-<body>
+<body class="bg-background text-foreground font-body">
 
-  <nav id="navbar" class="navbar">
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="container mx-auto px-4 flex items-center justify-between h-16">
+    <a href="/" class="flex flex-col leading-tight">
+      <span class="text-xl font-bold font-heading gradient-text">
+        Dipbits Technology LTD
+      </span>
+      <small class="text-[10px] uppercase tracking-widest opacity-80 gradient-text font-bold">
+        RC: 1792345
+      </small>
+    </a>
 
-  <div class="section-container navbar-inner">
-
-    
-  <a href="/" class="logo-block">
-
-    <span class="logo-name gradient-text">
-      Dipbits Technology LTD
-    </span>
-
-    <span class="logo-meta gradient-text">
-      RC no 2938388
-    </span>
-
-  </a>
-
-    
-    <div class="nav-links">
-      <a href="/#services" class="nav-link">Services</a>
-      <a href="/#portfolio" class="nav-link">Portfolio</a>
-      <a href="/#pricing" class="nav-link">Pricing</a>
-      <a href="/#contact" class="nav-link">Contact</a>
-      <a href="/#blog" class="nav-link">Blog</a>
-
-      <a href="#contact" class="btn">Hire Me</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/#services" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Services</a>
+      <a href="/#portfolio" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Portfolio</a>
+      <a href="/#pricing" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+      <a href="/#contact" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+      <a href="/#blog" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity">
+        Hire Me
+      </a>
     </div>
 
-    
-    <button id="menu-toggle" class="menu-toggle">
-      <span id="menu-icon">☰</span>
-    </button>
-
+    <button id="mobile-toggle" class="md:hidden text-foreground p-2 focus:outline-none">
+  <img src="/icons/menu.svg" id="menu-icon" class="w-6 h-6 dark:invert transition-all duration-300" alt="Menu">
+</button>
   </div>
 
-  
-  <div id="mobile-menu" class="mobile-menu">
-    <a href="/#services" class="mobile-link">Services</a>
-    <a href="/#portfolio" class="mobile-link">Portfolio</a>
-    <a href="/#pricing" class="mobile-link">Pricing</a>
-    <a href="/#contact" class="mobile-link">Contact</a>
-    <a href="/#blog" class="nav-link">Blog</a>
-
-    <a href="/#contact" class="btn full">Hire Me</a>
+  <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in">
+    <div class="flex flex-col p-6 gap-6">
+      <a href="/#services" class="mobile-link text-lg font-medium">Services</a>
+      <a href="/#portfolio" class="mobile-link text-lg font-medium">Portfolio</a>
+      <a href="/#pricing" class="mobile-link text-lg font-medium">Pricing</a>
+      <a href="/#contact" class="mobile-link text-lg font-medium">Contact</a>
+      <a href="/#blog" class="mobile-link text-lg font-medium">Blog</a>
+      <a href="/#contact" class="bg-primary text-primary-foreground px-4 py-3 rounded-lg font-bold text-center">
+        Hire Me
+      </a>
+    </div>
   </div>
-
 </nav>
 
-  <section class="section blog section-tight">
-    <div class="section-container">
 
-      <div class="section-header">
-        <h2>
+
+  <main class="pt-32 pb-20">
+    <div class="section-container">
+      
+      <div class="mb-16 animate-fade-up">
+        <h1 class="text-4xl md:text-6xl font-bold font-heading mb-4">
           Latest <span class="gradient-text">Articles</span>
-        </h2>
-        <p>Insights, case studies, and growth strategies.</p>
+        </h1>
+        <p class="text-muted-foreground text-lg max-w-2xl">
+          Insights, case studies, and growth strategies for modern businesses.
+        </p>
       </div>
 
-      <div class="portfolio-grid">
-
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <div class="portfolio-card blog-card">
-
+        <article class="group rounded-2xl border border-border bg-card overflow-hidden hover:border-primary/50 transition-all animate-fade-up">
           
           
-          <div class="portfolio-image">
-            <img src="/imgs/blog/social_media_growth.png" alt="Posts">
+          <div class="aspect-video overflow-hidden">
+            <img src="/imgs/blog/social_media_growth.png" alt="Posts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
           
 
-          
-          <div class="portfolio-result">
-            <span>
+          <div class="p-6">
+            <div class="text-xs text-muted-foreground mb-3">
               Mar 30, 2026 • 1 min read
-            </span>
-          </div>
+            </div>
 
-          
-          <h3>
-            <a href="/posts/my-first-post/">
-              How We Increased Sales by 200%
+            <h3 class="text-xl font-bold font-heading mb-3 group-hover:text-primary transition-colors">
+              <a href="/posts/my-first-post/">How We Increased Sales by 200%</a>
+            </h3>
+
+            <p class="text-muted-foreground text-sm line-clamp-3 mb-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, …</p>
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              
+                <span class="px-2 py-1 rounded bg-muted text-[10px] font-bold uppercase tracking-wider border border-border">E-commerce</span>
+              
+                <span class="px-2 py-1 rounded bg-muted text-[10px] font-bold uppercase tracking-wider border border-border">Conversion</span>
+              
+            </div>
+
+            <a href="/posts/my-first-post/" class="inline-flex items-center gap-2 text-sm font-bold text-primary">
+              Read Article <img src="/icons/arrow-right.svg" class="w-4 h-4 dark:invert" alt="">
             </a>
-          </h3>
-
-          
-          <p class="portfolio-desc">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, …</p>
-          </p>
-
-          
-          <div class="portfolio-tags">
-            
-              <span class="tag">E-commerce</span>
-            
-              <span class="tag">Conversion</span>
-            
           </div>
-
-          
-          <a href="/posts/my-first-post/" class="portfolio-link">
-            Read Article →
-          </a>
-
-        </div>
+        </article>
         
-
       </div>
 
     </div>
-  </section>
+  </main>
+
+  <footer class="border-t border-border bg-background pt-16 pb-8">
+  <div class="section-container">
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-[40px] mb-[40px]">
+      
+      <div class="footer-about">
+        <span class="float-left mr-4 mb-[10px]">
+            <img src="/imgs/logo/dipbits-logo-light.jpeg" class="h-[140px] w-auto dark:hidden" alt="Logo">
+            <img src="/imgs/logo/dipbits-logo-dark.png" class="h-[140px] w-auto hidden dark:block" alt="Logo">
+        </span>
+
+        <p class="text-[0.9rem] text-muted-foreground leading-[1.6]">
+          I&#39;m a senior full-stack developer with over 10 years of experience building high-performing websites and web applications for businesses across Nigeria and beyond. From e-commerce platforms to custom dashboards, I help entrepreneurs and companies turn ideas into profitable digital products. My focus is always on results — speed, conversions, and growth.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-foreground mb-[10px]">Quick Links</h4>
+
+        <ul class="list-none p-0 m-0">
+          
+            <li class="mb-[6px]">
+              <a href="#services" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Services
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#portfolio" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Portfolio
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#pricing" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Pricing
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#testimonials" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Testimonials
+              </a>
+            </li>
+          
+            <li class="mb-[6px]">
+              <a href="#contact" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+                Contact
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-foreground mb-[10px]">Get in Touch</h4>
+
+        <ul class="list-none p-0 m-0">
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            </span>
+
+            <a href="mailto:hello@devpro.ng"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              hello@devpro.ng
+            </a>
+          </li>
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+            </span>
+
+            <a href="https://wa.me/2348054063094" target="_blank" class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              WhatsApp
+            </a>
+          </li>
+          
+          <li class="flex items-center gap-[8px] mb-[10px]">
+            <span class="flex items-center justify-center w-[14px] h-[14px] text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            </span>
+
+            <a href="#ZgotmplZ"  class="text-[0.9rem] text-muted-foreground no-underline hover:text-primary transition-colors">
+              &#43;234 805 406 3094
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="border-t border-border pt-[20px] text-center">
+      <p class="text-[0.75rem] text-muted-foreground">
+        © 2026 Dipbits Technology LTD. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+  <a
+  href="https://wa.me/2348054063094?text=Hello%2C%20I%20need%20a%20website%20or%20web%20service."
+  target="_blank"
+  rel="noopener noreferrer"
+  class="fixed bottom-6 right-6 z-[100] flex items-center gap-2 bg-primary text-primary-foreground px-4 py-3 rounded-full font-bold shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group cta-shadow"
+>
+  <img src="/icons/message-circle.svg" class="w-5 h-5 dark:invert" alt="WhatsApp">
+  <span class="hidden sm:inline">Chat on WhatsApp</span>
+</a>
 
 </body>
 </html>
