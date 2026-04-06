@@ -2,19 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dipbits Technology</title>
-    <link>https://www.dipbits.com/</link>
+    <link>https://www.dipbits.com/tags/dipbits-technology/</link>
     <description>Recent content on Dipbits Technology</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 09:59:12 +0100</lastBuildDate>
-    <atom:link href="https://www.dipbits.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How We Increased Sales by 200%</title>
-      <link>https://www.dipbits.com/posts/my-first-post/</link>
-      <pubDate>Mon, 06 Apr 2026 09:59:12 +0100</pubDate>
-      <guid>https://www.dipbits.com/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;scaling-up-how-a-200-sales-boost-starts-with-one-great-page&#34;&gt;Scaling Up: How a 200% Sales Boost Starts with One Great Page&lt;/h2&gt;&#xA;&lt;p&gt;We’ve all seen websites that look &amp;ldquo;fine&amp;rdquo; but don’t actually move the needle. When we talk about increasing sales by 200%, it’s rarely about a secret marketing trick. Instead, it’s about fixing the &lt;strong&gt;digital handshake&lt;/strong&gt;—the moment a customer lands on your page and decides whether to stay or walk away.&lt;/p&gt;&#xA;&lt;p&gt;Achieving this kind of growth comes down to three simple shifts in how your website works for you.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 06 Apr 2026 09:02:12 +0100</lastBuildDate>
+    <atom:link href="https://www.dipbits.com/tags/dipbits-technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Hidden Foundation: Is Your IT Infrastructure Holding You Back?</title>
       <link>https://www.dipbits.com/posts/is-your-it-infrastructure-holding-you-back/</link>
