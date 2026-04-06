@@ -1023,6 +1023,16 @@
       }
     }
   }
+  .group-\[\.open\]\:flex {
+    &:is(:where(.group):is(.open) *) {
+      display: flex;
+    }
+  }
+  .group-\[\.open\]\:hidden {
+    &:is(:where(.group):is(.open) *) {
+      display: none;
+    }
+  }
   .selection\:bg-primary {
     & *::selection {
       background-color: var(--color-primary);
@@ -1448,6 +1458,12 @@
   .text-balance {
     text-wrap: balance;
   }
+}
+#mobile-toggle.open span:first-child {
+  display: none !important;
+}
+#mobile-toggle.open span:last-child {
+  display: flex !important;
 }
 @property --tw-translate-x {
   syntax: "*";
